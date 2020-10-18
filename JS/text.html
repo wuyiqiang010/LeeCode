@@ -84,35 +84,88 @@
             // var nums=["bella","label","roller"];
             // var lens=nums.length;
             // var x = new Number(value);
-            var s = "Let's take LeetCode contest";
-            var lens = s.length;
-            var i = 0;
-            var j=0;
-            var newstr=new Array();
-            // while (i < lens) {
-            //     if (s[i] == " " ||s[i+1]==null) {
-            //         // 反转单词并且追加空格到新数组中
-            //         // 反转单词的顺序是从j到i-1
-            //         var k=0;
-            //         while(k<(i-j)){
-            //             newstr[i-1]=s[j];
-            //         }
-            //         newstr.push(" ");
-            //         var j=i;
-            //     }
-
-            //     i++;
-            // }
-
-            for(var i=0;i<lens;i++){
-                if(s[i]==" "){
-                    // 计算ij之间的差值
+    //         var nums=[0,4,0]
+    //         var sum=1;
+    // var i=0;
+     var lens=nums.length;
+    // while (i<lens){
+    //     sum=sum*nums[i];
+    //     i++;
+    // }
+    // var j=0;
+    x       
+    // while(j<lens){
+    //     if(nums[j]==0){
+    //         // 当出现0的情况时，使用两两相乘
+    //         var k=0;
+    //         var sums=1;
+    //         for(var k=0;k<lens;k++){
+    //             if(k==j){
+    //                 if(nums[k++]!=null){
+    //                     k++;
+    //                 }
                     
-                }
-                
-            }
-            alert(newstr)
-        }
+    //             }
+    //             sums=sums*nums[k];
+    //             k++;
+    //         }
+            
+
+    //         newarr.push(sums);
+    //     }else{
+    //          newnum=sum/nums[j];
+    //          newarr.push(newnum);
+    //     }
+       
+    //     j++;
+    // }
+    // alert(newarr);
+    // return newarr
+        // 使用是穷举法
+    //     var sum=1;
+    //     for(var i=0;i<lens;i++){
+    //         for(var j=0;j<lens;j++){
+    //             if(j=i&&nums[j++]!=null){
+    //                 j++;
+    //                 alert(newarr);
+    //             }
+    //             if(nums[j++]==null){
+    //                 sum=sum/nums[j-1];
+    //             }
+    //             sum=sum*nums[j];
+    //             newarr.push(sum);
+    //         }
+    //     }
+    //         alert(newarr);
+    // return newarr;
+    // 首先合并数组num1
+    nums1.push(nums2);
+    // 对数组进行排序
+
+    
+
+    // var newarr=new Array();
+    // // 使用排序将新数组进行排序
+    // var lens1=nums1.length;
+    // var lens2=nums2.length;
+    // for(var i=0,j=0;i<lens1,j<lens2;i++,j++){
+        
+    // }
+
+
+
+    // 将已排好顺序的序列计算中位数
+    var middle=0;
+    var lens=newarr.length;
+    if(lens%2==0){
+        //偶数个长度
+        middle=(newarr((lens/2))+newarr(lens/2-1))/2
+    }else{
+        // 奇数个长度
+        middle=newarr[(lens-1)/2];
+    }
+
+}
 
 
 
