@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afdbb261-f430-4b95-b2c3-e3a843617d51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JS/34-在排序数组中查找元素的第一个和最后一个位置.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/text.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +25,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,7 +39,33 @@
       <option name="presentableId" value="Default" />
       <updated>1602919901347</updated>
       <workItem from="1602919909996" duration="10000" />
+      <workItem from="1603026987353" duration="60000" />
+      <workItem from="1603381097565" duration="623000" />
+      <workItem from="1603768241259" duration="942000" />
+      <workItem from="1603854673417" duration="1811000" />
+      <workItem from="1603863203795" duration="128000" />
+      <workItem from="1603863353580" duration="2241000" />
+      <workItem from="1603902001761" duration="1236000" />
+      <workItem from="1603948372444" duration="722000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="835" y="349" key="#Vim_Emulation" timestamp="1603903006071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="835" y="349" key="#Vim_Emulation/0.0.1920.1040@0.0.1920.1040" timestamp="1603903006071" />
+    <state x="620" y="135" key="FileChooserDialogImpl" timestamp="1603856415971">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="496" y="107" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603027002148" />
+    <state x="620" y="135" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603856415971" />
+    <state x="336" y="77" key="SettingsEditor" timestamp="1603902932974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603902932974" />
   </component>
 </project>

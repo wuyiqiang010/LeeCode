@@ -78,98 +78,67 @@
         */
 
         function maxScoreWords() {
-            /*  var words=new Array()
-              var letters=new Array()
-              var score=new Array()*/
-            // var nums=["bella","label","roller"];
-            // var lens=nums.length;
-            // var x = new Number(value);
-    //         var nums=[0,4,0]
-    //         var sum=1;
-    // var i=0;
-     var lens=nums.length;
-    // while (i<lens){
-    //     sum=sum*nums[i];
-    //     i++;
-    // }
-    // var j=0;
-    x       
-    // while(j<lens){
-    //     if(nums[j]==0){
-    //         // 当出现0的情况时，使用两两相乘
-    //         var k=0;
-    //         var sums=1;
-    //         for(var k=0;k<lens;k++){
-    //             if(k==j){
-    //                 if(nums[k++]!=null){
-    //                     k++;
-    //                 }
+            /*先通过折半查找确定数字的·1*/
+            nums=[1];
+            target=1;
+            var lens=nums.length;
+            var left=0;
+            var right=lens-1;
+            var middle=(lens+left)/2;
+            while(left<=right){
+                if(nums[middle]>target){
+                    right=middle-1;
+                    middle=(right+left)/2;
+                }else{
+                    left=middle-1;
+                    middle=(right+left)/2;
+                }
+                //寻找到目标值时再向前向后搜索
+                var arr=new Array();
+                if(nums[middle]===target){
+                    //向后搜索
+                        var next=middle;
+                        var last=next;
+                        /*向前搜索*/
+                        while(nums[next]==target){
+                            last=next;
+                            next++;
+                        }
+
+                        //向后搜索
+                        var pre=middle;
+                        var frist=middle;
+                        while(nums[pre]==target){
+                            frist=pre;
+                            pre--;
+                        }
+                        if (frist==last){
+                            arr.push(frist)
+                        }else {
+                            arr.push(frist)
+                            arr.push(last)
+                        }
+
+                        alert(arr)
+                return arr
+                }
+                if (nums[left]==nums[right]){
                     
-    //             }
-    //             sums=sums*nums[k];
-    //             k++;
-    //         }
-            
-
-    //         newarr.push(sums);
-    //     }else{
-    //          newnum=sum/nums[j];
-    //          newarr.push(newnum);
-    //     }
-       
-    //     j++;
-    // }
-    // alert(newarr);
-    // return newarr
-        // 使用是穷举法
-    //     var sum=1;
-    //     for(var i=0;i<lens;i++){
-    //         for(var j=0;j<lens;j++){
-    //             if(j=i&&nums[j++]!=null){
-    //                 j++;
-    //                 alert(newarr);
-    //             }
-    //             if(nums[j++]==null){
-    //                 sum=sum/nums[j-1];
-    //             }
-    //             sum=sum*nums[j];
-    //             newarr.push(sum);
-    //         }
-    //     }
-    //         alert(newarr);
-    // return newarr;
-    // 首先合并数组num1
-    nums1.push(nums2);
-    // 对数组进行排序
-
-    
-
-    // var newarr=new Array();
-    // // 使用排序将新数组进行排序
-    // var lens1=nums1.length;
-    // var lens2=nums2.length;
-    // for(var i=0,j=0;i<lens1,j<lens2;i++,j++){
-        
-    // }
-
-
-
-    // 将已排好顺序的序列计算中位数
-    var middle=0;
-    var lens=newarr.length;
-    if(lens%2==0){
-        //偶数个长度
-        middle=(newarr((lens/2))+newarr(lens/2-1))/2
-    }else{
-        // 奇数个长度
-        middle=newarr[(lens-1)/2];
-    }
-
-}
+                }
 
 
 
 
+            }
+
+              //不存在目标值时
+
+            var ars=new Array();
+            ars.push(-1);
+            ars.push(-1);
+            alert(ars);
+            return ars
+        }
     </script>
 </head>
 
