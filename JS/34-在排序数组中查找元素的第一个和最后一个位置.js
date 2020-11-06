@@ -18,7 +18,97 @@
 *
 * */
 
-
+/*方法一（未完成）*/
 function searchRange(nums,target) {
+            nums=[1];
+            target=1;
+            var lens=nums.length;
+            var left=0;
+            var right=lens-1;
+            var middle=(lens+left)/2;
+            while(left<=right){
+                if(nums[middle]>target){
+                    right=middle-1;
+                    middle=(right+left)/2;
+                }else{
+                    left=middle-1;
+                    middle=(right+left)/2;
+                }
+                //寻找到目标值时再向前向后搜索
+                var arr=new Array();
+                if(nums[middle]===target){
+                    //向后搜索
+                        var next=middle;
+                        var last=next;
+                        /*向前搜索*/
+                        while(nums[next]==target){
+                            last=next;
+                            next++;
+                        }
+
+                        //向后搜索
+                        var pre=middle;
+                        var frist=middle;
+                        while(nums[pre]==target){
+                            frist=pre;
+                            pre--;
+                        }
+                        if (frist==last){
+                            arr.push(frist)
+                        }else {
+                            arr.push(frist)
+                            arr.push(last)
+                        }
+
+                        alert(arr)
+                return arr
+                }
+                if (nums[left]==nums[right]){
+                    if(nums[left]==target){
+                        return left;
+                    }
+                }
+
+
+
+
+            }
+
+             //不存在目标值时
+            var ars=new Array();
+            ars.push(-1);
+            ars.push(-1);
+            alert(ars);
+            return ars
+}
+
+
+/*方法二（首尾指针）*/
+function searchRange(nums,target) {
+        var lens = nums.length;
+            /*使用双指针遍历数组*/
+            var left = 0;
+            var right = lens - 1;
+            var arr = new Array();
+                while(nums[left]!=target){
+                    if(left>(lens-1)){
+                        arr.push(-1);
+                        arr.push(-1);
+                        alert(arr);
+                        return arr;
+                        /*break;*/
+                    }
+                    left++;
+                }
+                while (nums[right]!=target){
+                    right--;
+                }
+
+                //添加数据
+                  arr.push(left);
+                    arr.push(right);
+                    //alert(arr)
+                    return arr;
+
 
 }
