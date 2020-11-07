@@ -21,8 +21,7 @@ function  twoSum(nums,target) {
                     newarr.push(i);
                     newarr.push(j);
                     return newarr;
-                    alert(i);
-                    alert(j);
+
                 }
         
         }

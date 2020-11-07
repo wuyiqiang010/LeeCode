@@ -12,18 +12,19 @@
 如果你已经实现复杂度为 O(n) 的解法，尝试使用更为精妙的分治法求解。
 *
 * */
-/*方法一（堆溢出）*/
+/*方法一（效率太低）*/
 
 function maxSubArray(nums) {
     var len=nums.length-1;
     var i=0;
-    /*数值数组*/
-    var arr=new Array();
+
     /*长度数组*/
 
     /*i控制起始位置*/
     while(i<=len){
         /*j控制长度*/
+            /*数值数组*/
+        var arr=new Array();
         var sum=0;
         for (var j=i;j<=len;j++){
             sum=nums[j]+sum;

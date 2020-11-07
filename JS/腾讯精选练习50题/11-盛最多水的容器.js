@@ -27,23 +27,25 @@ n = height.length
 *
 * */
 
-/* 方法一(堆溢出)
-* for循环可以改写成while循环
-* */
+/* 方法一(效率太低)*/
 function  maxArea(height) {
-      var lens=height.length-1;
+              var lens=height.length-1;
+        var i=0;
+        var ar=0;
+        while (i<=lens){
+            var j=i;
             var arr=new Array();
-            for (var i=0;i<=lens;i++){
-                for (var j=i+1;j<=lens;j++){
-                    sum=(j-i)*Math.min(height[i],height[j]);
-                    arr.push(sum);
+            var sum=0;
+            while (j<=lens){
+                sum=(j-i)*Math.min(height[i],height[j]);
+                if(sum>ar){
+                    ar=sum;
                 }
+                j++;
             }
-            /*返回数组最大值*/
-            var ar;
-            ar=Math.max.apply(null,arr);
-
-            return ar;
+            i++;
+        }
+        return ar;
 }
 
 
