@@ -79,9 +79,26 @@
 
         function maxScoreWords() {
 
+                num1="123456789";
+                num2="987654321";
+    var len1=num1.length-1;
+    var len2=num2.length-1;
 
+    var i=len1;
+    var sum=0;
+    while(i>=0){
+        var j=len2;
+        while(j>=0){
+            sum=sum+(num1[i]*(10**(len1-i)))*(num2[j]*(10**(len2-j)));
+            j--;
+        }
 
+        i--;
+    }
 
+   var strsum=sum.toString();
+    alert(strsum)
+    return strsum;
         }
     </script>
 </head>

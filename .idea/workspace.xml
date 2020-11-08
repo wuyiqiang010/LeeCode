@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afdbb261-f430-4b95-b2c3-e3a843617d51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/148-排序链表.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/206-反转链表.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/122-买卖股票的最佳时机.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/136-只出现一次的数字.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/231-2的幂.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/腾讯精选练习50题/1-两数之和.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/1-两数之和.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/腾讯精选练习50题/11-盛最多水的容器.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/11-盛最多水的容器.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/腾讯精选练习50题/53-最大子序和.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/53-最大子序和.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +86,8 @@
       <workItem from="1604708591146" duration="631000" />
       <workItem from="1604718010997" duration="1503000" />
       <workItem from="1604728998597" duration="1694000" />
+      <workItem from="1604752838112" duration="2031000" />
+      <workItem from="1604805204547" duration="4538000" />
     </task>
     <servers />
   </component>
