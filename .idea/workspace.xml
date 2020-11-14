@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afdbb261-f430-4b95-b2c3-e3a843617d51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/122-买卖股票的最佳时机.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/136-只出现一次的数字.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/231-2的幂.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/141-环形链表.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mobileWeb/day2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -88,6 +85,9 @@
       <workItem from="1604728998597" duration="1694000" />
       <workItem from="1604752838112" duration="2031000" />
       <workItem from="1604805204547" duration="4538000" />
+      <workItem from="1604885168981" duration="39000" />
+      <workItem from="1605270225343" duration="4379000" />
+      <workItem from="1605317346128" duration="1369000" />
     </task>
     <servers />
   </component>
@@ -111,11 +111,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="835" y="349" key="#Vim_Emulation/0.0.1920.1040@0.0.1920.1040" timestamp="1603903006071" />
-    <state x="620" y="135" key="FileChooserDialogImpl" timestamp="1604730677658">
+    <state x="620" y="135" key="FileChooserDialogImpl" timestamp="1604885202205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="496" y="107" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603027002148" />
-    <state x="620" y="135" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604730677658" />
+    <state x="620" y="135" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604885202205" />
     <state x="336" y="77" key="SettingsEditor" timestamp="1603902932974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
