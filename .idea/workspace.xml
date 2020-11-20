@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afdbb261-f430-4b95-b2c3-e3a843617d51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/88-合并两个有序数组.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/121-买卖股票最佳时机.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/217-存在重复元素.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/腾讯精选练习50题/7-整数反转.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/text.html" afterDir="false" />
     </list>
@@ -89,6 +91,8 @@
       <workItem from="1605270225343" duration="4379000" />
       <workItem from="1605317346128" duration="2142000" />
       <workItem from="1605350850439" duration="3546000" />
+      <workItem from="1605879569647" duration="1226000" />
+      <workItem from="1605884814728" duration="4770000" />
     </task>
     <servers />
   </component>

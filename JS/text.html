@@ -77,26 +77,9 @@
             给定一个字符串数组 words，找到 length(word[i]) * length(word[j]) 的最大值，并且这两个单词不含有公共字母。你可以认为每                   个单词只包含小写字母。如果不存在这样的两个单词，返回 0。
         */
 
-            
+
         function maxScoreWords() {
-            num1= "123456789"
-            num2= "987654321"
-            var len1=num1.length-1;
-            var len2=num2.length-1;
-            var i=len1;
-            var sum=0;
-            
-            while(i>=0){
-                var j=len2;
-                while(j>=0){
-                    sum=sum+(num1[i]*(10**(len1-i)))*(num2[j]*(10**(len2-j)));
-                    j--;
-                }
-                i--;
-            }
-                var sums=sum.toString()
-                alert(sums)
-                return sums
+
 
         }
 
