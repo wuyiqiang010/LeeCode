@@ -47,5 +47,5 @@
 
 
 function  myAtoi(s) {
-
+    
 }
