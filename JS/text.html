@@ -79,8 +79,23 @@
 
 
         function maxScoreWords() {
+            s="abcabcbb"
+            //字串的长度
+            var newarrlen=new Array()
+            //匹配的字串
+            var arr=new  Array()
 
+            for (let i=0;i<s.length;i++){
+                  //定义指针，指针向前探
 
+                for(let j=0;j<arr.length;j++){
+                    if(arr[j]==s[i]){
+                        break
+                    }
+                }
+                newarrlen.push(arr.length)
+            }
+            alert(Math.max(...newarrlen))
         }
 
 

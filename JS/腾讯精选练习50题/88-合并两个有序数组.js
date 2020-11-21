@@ -22,19 +22,28 @@ nums2.length == n
 * */
 
 
-function merge(nums1,m,nums2.n) {
+function merge(nums1,m,nums2,n) {
 
+    // 将数组num2和数组num1合并
+    nums1.length=m
+    for(let i=0;i<n;i++){
+        nums1.push(nums2[i])
+    }
 
-    var newarr=new Array()
-    var i=0,j=0
-    while(i<=m-1,j<=n-1){
-        if(nums1[i]<nums2[j]){
-            //添加到新数组中
-            newarr.push(nums1[i])
-            i++;
-        }else{
-            newarr.push[nums2[j]]
-            j++
-        }
+    //对nums数组排序,，使用冒泡排序法
+     for(let i=0;i<nums1.length;i++){
+                for (let j=0;j<nums1.length-i;j++){
+                    if(nums1[j]>nums1[j+1]){
+                        let tmp
+                        tmp=nums1[j]
+                        nums1[j]=nums1[j+1]
+                        nums1[j+1]=tmp
+
+                    }
+                }
+            }
+
+    return nums1
+
 
 }
