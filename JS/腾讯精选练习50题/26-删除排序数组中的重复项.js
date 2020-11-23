@@ -42,6 +42,16 @@ for (int i = 0; i < len; i++) {
 * */
 
 function  removeDuplicates(nums) {
-    
-
+    for(let i=0;i<nums.length;i++){
+        var tmp=i+1
+        var count=0
+        while (tmp<nums.length){
+            if(nums[i]==nums[tmp]){
+                   count++
+            }
+            tmp++
+       }
+       //截取数组
+       nums.splice(i+1,count)
+    }
 }
