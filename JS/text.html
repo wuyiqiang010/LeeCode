@@ -8,7 +8,7 @@
 
 
         function maxScoreWords() {
-            str=["flower","flow","flight"]
+           /* str=["flower","flow","flight"]
             //生成一个新数组
             var st=new Array()
             //接收比较的数组
@@ -17,7 +17,7 @@
             st=str[0]
             for (let i=1;i<st.length-1;i++){
                 sd=st[i]
-               /* alert(sd.length)*/
+               /!* alert(sd.length)*!/
                 for (let j=0;j<sd.length-1;j++){
                     if (str[j]!==sd[j]){
                         //截取st后面不相等的字符
@@ -28,7 +28,48 @@
                 }
             }
             
-            alert(st)
+            alert(st)*/
+            nums=[1,0]
+            var sum=1
+            var count=0
+            //输出数组
+            var inputarr=new  Array()
+            for (let i=0;i<nums.length;i++){
+                if(nums[i]==0){
+                    count++
+                }
+                sum=sum*nums[i]
+            }
+            //输出数组
+            for (let j=0;j<nums.length;j++){
+                if (count==1&&nums[j]==0){
+                    //计算所有乘积
+                    var all=1
+                    for (let k=0;k<nums.length;k++){
+                        if(k==j){
+                            k++
+                        }else{
+                            all=all*nums[k]
+
+                        }
+
+                    }
+                    inputarr.push(all)
+                }
+                if (count>1){
+                    inputarr.push(0)
+                }else {
+                    inputarr.push(sum/nums[j])
+                }
+
+            }
+        alert(inputarr)
+
+
+
+        //如果剩下的石头为1 2 3块时己方获胜
+
+
         }
 
 
