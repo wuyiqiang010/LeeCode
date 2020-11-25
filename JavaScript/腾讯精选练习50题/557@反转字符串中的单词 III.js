@@ -40,6 +40,7 @@ var arr=new Array()
                     font=i+1
             }
         }
+        arr=arr.trim()
         var tmp=arr.join("")
         //alert(tmp)
             return  tmp
