@@ -18,5 +18,32 @@
 * 
 * */
 function productExceptSelf(nums) {
+      var sum=1
+    var count=0
+    for (let i=0;i<nums.length;i++){
+        if (nums[i]==0){
+            count++
+            continue;
+        }else {
+            sum*=nums[i]
+        }
 
+    }
+    var newArr=new Array()
+    for (let j=0;j<nums.length;j++){
+        if (count==0){
+            newArr.push(sum/nums[j])
+        }
+        if (count>1){
+            newArr.push(0)
+        }
+        if (count==1&&nums[j]==0){
+            newArr.push(sum)
+        }
+        if (count==1&&nums[j]!=0){
+            newArr.push(0)
+        }
+
+    }
+    return newArr
 }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>链表测试案例</title>
+</head>
+<body>
+<script>
+
+	//生成链表
+	function createLinklist(arr) {
+	    //空节点
+	    var emptyNode=new Node()
+		emptyNode.next=null
+		//指针
+
+		var ptr=emptyNode
+		for (let i=0;i<arr.length;i++){
+				var node=new  Node(arr[i])
+				ptr.next=node
+				ptr=ptr.next
+		}
+		return emptyNode
+    }
+    //节点
+	function Node(val) {
+		this.val = val;   //当前节点的元素
+		this.next = null;         //下一个节点链接
+	}
+	var l1=createLinklist([2,4,3])
+	var l2=createLinklist([5,6,4])
+ 	var aptr=l1.next
+    var bptr=l2.next
+	var sum=0
+	var count=0
+	while (aptr!=null){
+	    sum+=(aptr.val+bptr.val)*(10**count)
+	    aptr=aptr.next
+		bptr=bptr.next
+		count++
+	}
+    var sums=sum.toString()
+
+    var newarr=new Array()
+    for(let i=0;i<sums.length;i++){
+        Number(sums[i])
+    }
+
+
+	console.log(newarr)
+
+
+</script>
+
+</body>
+</html>

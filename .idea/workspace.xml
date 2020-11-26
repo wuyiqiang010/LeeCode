@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afdbb261-f430-4b95-b2c3-e3a843617d51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/13-罗马数字转整数.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/17-电话号码与字母组合.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/linkTableTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/43-字符串相乘.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/557@反转字符串中的单词 III.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/557@反转字符串中的单词 III.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/arrayTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/238-除自身以外数组乘积.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/238-除自身以外数组乘积.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -51,6 +52,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -130,6 +132,11 @@
       <workItem from="1606214203321" duration="669000" />
       <workItem from="1606271061221" duration="32000" />
       <workItem from="1606303894684" duration="6333000" />
+      <workItem from="1606356258765" duration="3253000" />
+      <workItem from="1606360202913" duration="349000" />
+      <workItem from="1606360575585" duration="2162000" />
+      <workItem from="1606369476850" duration="9081000" />
+      <workItem from="1606362099703" duration="2185000" />
     </task>
     <servers />
   </component>
