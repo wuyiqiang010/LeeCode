@@ -50,26 +50,39 @@
 
 
 	console.log(newarr)*/
-	var head=createLinklist([4,2,1,3])
-	var La=head.next
-	while(La!=null){
-
-		while(La!=null){
-
-			if (La.val < La.next){
-				let tmp
-				tmp=La.val
-				La.val=La.next.val
-			 	La.next.val=tmp
-			}
-			La=La.next
+	var l1=createLinklist([])
+	var l2=createLinklist([0])
+	var l1ptr=l1.next
+	var l2ptr=l2.next
+	if(l1ptr==null){
+		l1ptr=l2.next
+	}else{
+		while(l1ptr.next!=null){
+			l1ptr=l1ptr.next
 		}
-		La=head.next
+		l1ptr.next=l2.next
+		l1ptr=l1.next
 	}
+	//先将来l2链表合并到l1链表中，再对链表进行排序
 
+	//对链表进行排序
+	var La=l1ptr
+	while(La!=null){
+		var Lb=l1ptr
+		while(Lb!=null){
+			if (Lb.val>La.val){
+				let tmp
+				tmp=Lb.val
+				Lb.val=La.val
+				La.val=tmp
+			}
+			Lb=Lb.next
 
-
-	console.log(head)
+		}
+		La=La.next
+	}
+	console.log(l1.next)
+	//return l1
 
 </script>
 

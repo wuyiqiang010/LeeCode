@@ -31,5 +31,20 @@
 /*堆排序 快速排序 归并排序*/
 
 function sortList(head) {
+    var La=head
+    while(La!=null){
+        var Lb=head
+        while(Lb!=null){
+            if (Lb.val>La.val){
+                let tmp
+                tmp=Lb.val
+                Lb.val=La.val
+                La.val=tmp
+            }
+            Lb=Lb.next
 
+        }
+        La=La.next
+    }
+    return head
 }

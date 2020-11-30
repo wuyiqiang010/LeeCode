@@ -8,27 +8,6 @@
 
 
         function maxScoreWords() {
-           /* str=["flower","flow","flight"]
-            //生成一个新数组
-            var st=new Array()
-            //接收比较的数组
-            var sd=""
-            //将第一个数字复制给第一个数
-            st=str[0]
-            for (let i=1;i<st.length-1;i++){
-                sd=st[i]
-               /!* alert(sd.length)*!/
-                for (let j=0;j<sd.length-1;j++){
-                    if (str[j]!==sd[j]){
-                        //截取st后面不相等的字符
-                        st.splice(j,st.length-1)
-                        console.log(st)
-                        break
-                    }
-                }
-            }
-            
-            alert(st)*/
         /*    nums=[1,0]
             var sum=1
             var count=0
@@ -64,34 +43,8 @@
             }
         alert(inputarr)
 */
-        var strs=  ["dog","racecar","car"]
-            var str=strs[0]
-            var str
-            if(strs.length==0){
-                str=""
-                return str
-            }
+            //反转字符串中的单词
 
-            if (strs.length==1){
-                console.log(strs[0])
-                return strs[0]
-            }
-            st=strs[0]
-            for (let i = 1; i <strs.length ; i++) {
-
-                for (let k = 0, j = 0; k < strs[i].length, j < str.length; k++, j++) {
-                    if (strs[i][k] != str[j]) {
-                        //截取后续的字段
-                        var arr = new Array()
-                        for (let s = 0; s < k; s++) {
-                            arr.push(str[i])
-                        }
-                        str = arr
-                    }
-                }
-            }
-            var tmp=str.join("")
-            console.log(tmp)
 
         }
 

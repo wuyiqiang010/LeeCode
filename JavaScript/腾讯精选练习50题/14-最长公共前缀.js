@@ -20,5 +20,28 @@
 * */
 
 function longestCommonPrefix(strs) {
+    var str
+    if(strs.length==0){
+        str=""
+        return str
+    }
+    if (strs.length==1){
+        console.log(strs[0])
+        return strs[0]
+    }
+    str=strs[0]
+    for (let i = 1; i <strs.length ; i++) {
+        for (let k = 0, j = 0; k < strs[i].length, j < str.length; k++, j++) {
+            if (strs[i][k] != str[j]) {
+                //截取后续的字段
+                var arr=""
+                for (let s = 0; s < k; s++) {
+                    arr+=str[s]
+                }
+                str = arr
+            }
+        }
+    }
 
+    return str
 }

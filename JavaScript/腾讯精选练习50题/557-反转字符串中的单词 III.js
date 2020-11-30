@@ -17,7 +17,7 @@
 
 
 function reverseWords(s) {
-var arr=new Array()
+    var arr=new Array()
          var font=0
         if(s.length===0){
         return s
@@ -30,7 +30,7 @@ var arr=new Array()
                         //交换值
                         arr[j]=s[k]
                         arr[k]=s[j]
-                        if (i!=s.length){
+                        if (i!=s.length-1){
                             arr.push(" ")
                         }
                         /*s[k]=s[k]^s[j]
@@ -40,8 +40,7 @@ var arr=new Array()
                     font=i+1
             }
         }
-        arr=arr.trim()
         var tmp=arr.join("")
         //alert(tmp)
-            return  tmp
+    return  tmp
 }
