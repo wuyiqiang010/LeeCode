@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>数组测试用例</title>
     <script>
 
 
@@ -64,23 +64,39 @@
             }
         alert(inputarr)
 */
+        var strs=  ["dog","racecar","car"]
+            var str=strs[0]
+            var str
+            if(strs.length==0){
+                str=""
+                return str
+            }
 
-        //如果剩下的石头为1 2 3块时己方获胜
-        var num1 = "123456789", num2 = "987654321"
-         nums1=Number(num1)
-         nums2=Number(num2)
-            var sum=num1*num2
-            console.log(sum)
+            if (strs.length==1){
+                console.log(strs[0])
+                return strs[0]
+            }
+            st=strs[0]
+            for (let i = 1; i <strs.length ; i++) {
+
+                for (let k = 0, j = 0; k < strs[i].length, j < str.length; k++, j++) {
+                    if (strs[i][k] != str[j]) {
+                        //截取后续的字段
+                        var arr = new Array()
+                        for (let s = 0; s < k; s++) {
+                            arr.push(str[i])
+                        }
+                        str = arr
+                    }
+                }
+            }
+            var tmp=str.join("")
+            console.log(tmp)
 
         }
 
 
-
-        //构造链表
-
-
     </script>
-    <script src="腾讯精选练习50题/5-最长回文字串.js"></script>
 </head>
 
 <body>

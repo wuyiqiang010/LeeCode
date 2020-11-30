@@ -20,27 +20,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afdbb261-f430-4b95-b2c3-e3a843617d51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/linkTableTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/43-字符串相乘.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go/腾讯精选练习50题/7-整数反转.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/106-相交链表.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/215-数组中第K个最大元素.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/976-三角形的最大周长.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LeeCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeeCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/arrayTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/238-除自身以外数组乘积.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/238-除自身以外数组乘积.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go/占位文件.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/arrayTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/arrayTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/linkTableTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/linkTableTest.html" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LeeCode" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Go File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="BTaKaqFm" />
   </component>
   <component name="ProjectId" id="1izohVETtu2QmRglgUIURRzx78V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -52,25 +66,40 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Radis" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/webapis_notes/day4" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Project\LeeCode\Radis" />
-      <recent name="C:\Project\LeeCode\MongoDB" />
-      <recent name="C:\Project\LeeCode\DB2" />
-      <recent name="C:\Project\LeeCode\Go" />
-      <recent name="C:\Project\LeeCode\Scala" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Project\LeeCode\MySQL" />
       <recent name="C:\Project\LeeCode\JS\LeetCode 热题 HOT 100" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\LeeCode\Go\腾讯精选练习50题" />
+      <recent name="C:\Project\LeeCode\Radis" />
+      <recent name="C:\Project\LeeCode\MongoDB" />
+      <recent name="C:\Project\LeeCode\DB2" />
+      <recent name="C:\Project\LeeCode\Go" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -141,19 +170,20 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />

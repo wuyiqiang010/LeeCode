@@ -29,7 +29,7 @@
 		this.val = val;   //当前节点的元素
 		this.next = null;         //下一个节点链接
 	}
-	var l1=createLinklist([2,4,3])
+	/*var l1=createLinklist([2,4,3])
 	var l2=createLinklist([5,6,4])
  	var aptr=l1.next
     var bptr=l2.next
@@ -49,8 +49,27 @@
     }
 
 
-	console.log(newarr)
+	console.log(newarr)*/
+	var head=createLinklist([4,2,1,3])
+	var La=head.next
+	while(La!=null){
 
+		while(La!=null){
+
+			if (La.val < La.next){
+				let tmp
+				tmp=La.val
+				La.val=La.next.val
+			 	La.next.val=tmp
+			}
+			La=La.next
+		}
+		La=head.next
+	}
+
+
+
+	console.log(head)
 
 </script>
 
