@@ -12,12 +12,10 @@
 	//生成链表
 	function createLinklist(arr) {
 	    //空节点
-	    var emptyNode=new Node()
-		emptyNode.next=null
+	    var emptyNode=new Node(arr[0],null)
 		//指针
-
 		var ptr=emptyNode
-		for (let i=0;i<arr.length;i++){
+		for (let i=1;i<arr.length;i++){
 				var node=new  Node(arr[i])
 				ptr.next=node
 				ptr=ptr.next
@@ -50,40 +48,44 @@
 
 
 	console.log(newarr)*/
-	var l1=createLinklist([])
-	var l2=createLinklist([0])
-	var l1ptr=l1.next
-	var l2ptr=l2.next
-	if(l1ptr==null){
-		l1ptr=l2.next
-	}else{
-		while(l1ptr.next!=null){
-			l1ptr=l1ptr.next
-		}
-		l1ptr.next=l2.next
-		l1ptr=l1.next
+	//反转链表
+/*	var head=createLinklist([1,2,3,4,5])
+	//遍历链表，到链表表尾
+	var ptr=head
+	if(ptr==null){
+		console.log(head)
 	}
-	//先将来l2链表合并到l1链表中，再对链表进行排序
-
-	//对链表进行排序
-	var La=l1ptr
-	while(La!=null){
-		var Lb=l1ptr
-		while(Lb!=null){
-			if (Lb.val>La.val){
-				let tmp
-				tmp=Lb.val
-				Lb.val=La.val
-				La.val=tmp
-			}
-			Lb=Lb.next
-
-		}
-		La=La.next
+	while(ptr.next!=null){
+		ptr=ptr.next
 	}
-	console.log(l1.next)
-	//return l1
+	var p=ptr
+	var pt=head
+	while (pt!=p){
 
+		let pm=pt
+		pt=pt.next
+		pm.next=null
+		ptr.next=pm
+		ptr=ptr.next
+	}
+	console.log(head)*/
+
+	//旋转链表
+	var head=createLinklist([1,2,3,4,5])
+	var k=2
+	while(k>0){
+		//遍历链表到最后一个节点
+		var ptr=head
+		while(ptr.next!=null){
+			var pt=ptr
+			ptr=ptr.next
+		}
+		let p=head
+		pt.next==null
+		ptr.next=p
+		k--
+	}
+	console.log(head)
 </script>
 
 </body>

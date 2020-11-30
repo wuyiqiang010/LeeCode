@@ -44,8 +44,27 @@
         alert(inputarr)
 */
             //反转字符串中的单词
+            nums = [1, 0, -1, 0, -2, 2]
+            target = 0
+            var array=new Array()
+            for (let i=0;i<nums.length;i++){
+                for (let j=i+1;j<nums.length;j++){
+                    for (let k=j+1;k<nums.length;k++){
+                        for (let s=k+1;k<nums.length;s++){
+                            if (nums[k]+nums[i]+nums[j]+nums[s]==target){
+                                var arr=new Array()
+                                arr.push(i)
+                                arr.push(j)
+                                arr.push(k)
+                                arr.push(s)
 
-
+                            }
+                            array.push(arr)
+                        }
+                    }
+                }
+            }
+            console.log(array)
         }
 
 

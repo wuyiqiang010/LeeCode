@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afdbb261-f430-4b95-b2c3-e3a843617d51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/21-合并两个有序链表.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/18-四数之和.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/61-旋转链表.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/arrayTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/arrayTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/linkTableTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/linkTableTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/14-最长公共前缀.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/14-最长公共前缀.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/148-排序链表.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/148-排序链表.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/557@反转字符串中的单词 III.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/557-反转字符串中的单词 III.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/21-合并两个有序链表.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/21-合并两个有序链表.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,16 +73,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Project\LeeCode\MySQL" />
-      <recent name="C:\Project\LeeCode\JS\LeetCode 热题 HOT 100" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Project\LeeCode\Go\腾讯精选练习50题" />
       <recent name="C:\Project\LeeCode\Radis" />
       <recent name="C:\Project\LeeCode\MongoDB" />
       <recent name="C:\Project\LeeCode\DB2" />
       <recent name="C:\Project\LeeCode\Go" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Project\LeeCode\JavaScript" />
+      <recent name="C:\Project\LeeCode\MySQL" />
+      <recent name="C:\Project\LeeCode\JS\LeetCode 热题 HOT 100" />
     </key>
   </component>
   <component name="RunDashboard">
