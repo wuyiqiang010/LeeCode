@@ -12,80 +12,82 @@
 	//生成链表
 	function createLinklist(arr) {
 	    //空节点
-	    var emptyNode=new Node(arr[0],null)
+	    var emptyNode=new ListNode(arr[0],null)
 		//指针
 		var ptr=emptyNode
 		for (let i=1;i<arr.length;i++){
-				var node=new  Node(arr[i])
+				var node=new  ListNode(arr[i])
 				ptr.next=node
 				ptr=ptr.next
 		}
 		return emptyNode
     }
     //节点
-	function Node(val) {
+	function ListNode(val) {
 		this.val = val;   //当前节点的元素
 		this.next = null;         //下一个节点链接
 	}
-	/*var l1=createLinklist([2,4,3])
+/*	var l1=createLinklist([2,4,3])
 	var l2=createLinklist([5,6,4])
- 	var aptr=l1.next
-    var bptr=l2.next
-	var sum=0
-	var count=0
-	while (aptr!=null){
-	    sum+=(aptr.val+bptr.val)*(10**count)
-	    aptr=aptr.next
-		bptr=bptr.next
-		count++
+ 	var aptr=l1
+    var bptr=l2
+	//遍历l1和l2链表，将该链表合并成一条链表
+	if(aptr==null){
+		//反转l2链表
 	}
-    var sums=sum.toString()
-
-    var newarr=new Array()
-    for(let i=0;i<sums.length;i++){
-        Number(sums[i])
-    }
-
-
-	console.log(newarr)*/
+	while(bptr!=null,aptr!=null){
+		aptr.val=aptr.val+bptr.val
+		aptr=aptr.next
+		bptr=bptr.next
+	}
+	//遍历l1链表，将数值相加
+	var sum=0
+	var tmp=l1
+	var count=0
+	while(tmp!=null){
+		sum+=tmp.val*(10**count)
+		count++
+		tmp=tmp.next
+	}
+	console.log(l1)
+	console.log(sum)*/
 	//反转链表
-/*	var head=createLinklist([1,2,3,4,5])
+	var head=createLinklist([1,2,3,4,5])
 	//遍历链表，到链表表尾
-	var ptr=head
-	if(ptr==null){
+	var pt=head
+	var count=0
+	if(pt==null||pt.next==null){
+
 		console.log(head)
 	}
-	while(ptr.next!=null){
-		ptr=ptr.next
-	}
-	var p=ptr
-	var pt=head
-	while (pt!=p){
-
-		let pm=pt
+	//循环遍历链表到链表表尾
+	while(pt!=null){
+		//计算链表节点数
+		count++
 		pt=pt.next
-		pm.next=null
-		ptr.next=pm
-		ptr=ptr.next
 	}
-	console.log(head)*/
-
-	//旋转链表
-	var head=createLinklist([1,2,3,4,5])
-	var k=2
-	while(k>0){
-		//遍历链表到最后一个节点
-		var ptr=head
-		while(ptr.next!=null){
-			var pt=ptr
-			ptr=ptr.next
+	//再次遍历链表
+	var pr=head
+	var tmp=0
+	if(count%2==0){
+		//count为偶数时遍历节点
+		while(pr){
+			tmp++
 		}
-		let p=head
-		pt.next==null
-		ptr.next=p
-		k--
+	}else {
+		//count为奇数时遍历节点
+		while (pr){
+			tmp++
+		}
 	}
-	console.log(head)
+
+	//count为奇数
+
+
+	console.log(count)
+
+
+
 </script>
 
 </body>

@@ -21,5 +21,20 @@
 * */
 
 function rotateRight(head, k) {
-    
+    if(head==null||head.next==null){
+        return head
+    }
+    while(k>0){
+        //遍历链表到最后一个节点
+        var ptr=head
+        while(ptr.next!=null){
+            var pt=ptr
+            ptr=ptr.next
+        }
+        pt.next=null
+        ptr.next=head
+        head=ptr
+        k--
+    }
+    return head
 }

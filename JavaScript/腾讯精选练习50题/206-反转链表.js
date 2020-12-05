@@ -12,16 +12,6 @@
 
 
 function reverseList(head) {
-    var headptr=heade;
-    while(headptr.next!=null){
-        var second=headerptr;
-        while(second.next!=null){
-            if(second.val<second.next.val){
-                // 交换数据
-            }
-            secondptr=secondptr.next;
-        }
-        headerptr=headerptr.next;
-    }
+
 
 }
