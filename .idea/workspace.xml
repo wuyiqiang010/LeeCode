@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afdbb261-f430-4b95-b2c3-e3a843617d51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/142-环形链表II.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/62-不同路径.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/arrayTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/arrayTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/linkTableTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/linkTableTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/206-反转链表.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/206-反转链表.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/61-旋转链表.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/61-旋转链表.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
