@@ -65,22 +65,148 @@
                 }
             }
             console.log(array)*/
-            num1="123456789000000000"
-            num2="987654321000000000"
-	        var len1=num1.length-1;
-	        var len2=num2.length-1;
-	        var i=len1;
-	        var sum=0;
-	        while(i>=0){
-		        var j=len2;
-		        while(j>=0){
-			        sum=(num1[i]*(10**(len1-i))) * (num2[j]*(10**(len2-j)));
-			        j--;
-		        }
-		        i--;
-	        }
-	        console.log(sum)
+        //     num1="123456789000000000"
+        //     num2="987654321000000000"
+	    //     var len1=num1.length-1;
+	    //     var len2=num2.length-1;
+	    //     var i=len1;
+	    //     var sum=0;
+	    //     while(i>=0){
+		//         var j=len2;
+		//         while(j>=0){
+		// 	        sum=(num1[i]*(10**(len1-i))) * (num2[j]*(10**(len2-j)));
+		// 	        j--;
+		//         }
+		//         i--;
+	    //     }
+	    //     console.log(sum)
+        // }
+
+           //
+           // function get() {
+           //     var N=705281510
+           //     if (N<10){
+           //         return  N
+           //     }
+           //     if(N==10){
+           //         return 9
+           //     }else{
+           //          var val=N.toString()
+           //          for (let i=0;i<val.length;i++){
+           //              if(val[i]>val[i+1]){
+           //                 //每一位都向下减一
+           //                  var arr=""
+           //                  for (let j=0;j<val.length;j++){
+           //                     if(j==0 && val[0]-1!=0){
+           //                        arr+=val[0]-1
+           //                         continue;
+           //                     }
+           //                     if(j==0 && val[0]-1==0){
+           //                         continue;
+           //                     }
+           //                      arr+="9"
+           //                  }
+           //
+           //                  //将数组转化为字符串
+           //                  return Number(arr)
+           //              }
+           //
+           //          }
+           //     }
+           //
+           //
+           // return  N
+           // }
+
+           //927三等分
+           //     function fthreeEqualParts (A) {
+           //          //使用双层循环
+           //         if(A.length<3){
+           //             return [-1,-1]
+           //         }
+           //
+           //       for (let i=0;i<A.length-1;i++){
+           //           for (let j=i+1;j<A.length-1;j++){
+           //              /*计算每个部分的值*/
+           //              //计算第一部分的值
+           //              var part1val=calpartval(-1,i,A)
+           //              //计算第二部分的值
+           //              var part2val=calpartval(i,j,A)
+           //              //计算第三部分的值
+           //              var part3val=calpartval(j,A.length-1,A)
+           //              if(part1val===part2val&&part2val===part3val){
+           //                  console.log(part1val,part2val,part3val)
+           //                  return [i,j+1]
+           //              }
+           //              if(i===A.length-2){
+           //                  return [-1,-1]
+           //              }
+           //           }
+           //       }
+           //     }
+           //
+           //
+           //     function calpartval(x,y,arr){
+           //         var count=0
+           //         var sum=0
+           //          for (let t=y;t>x;t--){
+           //              sum+=arr[t]*2**count
+           //              count++
+           //
+           //          }
+           //          return sum
+           //     }
+           //
+           //  console.log(fthreeEqualParts([0,1,0,1,1]))
+
+            console.log(fib(79))
+
         }
+
+        function fib(n) {
+        // if (n===0){
+        //     return 0
+        // }
+        // if(n===1||n===2){
+        //     return 1
+        // }
+        // var sum=0
+        // var arr=new Array()
+        // arr[0]=1
+        // arr[1]=1
+        // for (let i=3;i<=n;i++){
+        //    sum=arr[0]+arr[1]
+        //    arr[1]=arr[0]
+        //    arr[0]=sum.toString()
+        // }
+
+            //将数字型转换为字符串型
+            if(n===0){
+                return  0
+            }
+            if(n===1||n===2){
+                return  1
+            }
+
+            var sum=""
+            var str1=""
+            var str2=""vue
+            for (let i=3;i<=n;i++){
+                
+            }
+    return  arr[0]
+}
+
+
+function fibs(n) {
+    if (n==0){
+        return  0
+    }
+    if(n==1||n==2){
+        return 1
+    }
+    return fib(n-1) % 1000000007 + fib(n-2) % 1000000007
+}
 
 
     </script>

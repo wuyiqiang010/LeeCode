@@ -1,7 +1,7 @@
 # LeeCode
 LeeCode解题代码
 说明：
-1.本文件按照语言分为javascript TypeScript Go Julia Python Rust Dart Swift Shell MySQL Oracle版本，由于个人未接触微软公司产品技术，在数据库中的算法决定弃用微软公司的MS SQL Server来解题。
+1.本文件按照语言分为Javascript TypeScript Go Julia Python Rust Dart Swift Shell MySQL Oracle版本，由于个人未接触微软公司产品技术，在数据库中的算法决定弃用微软公司的MS SQL Server来解题。
 2.对于有些题目本人会使用多种方式进行解题，并将若干种解题方法写在一起，供大家使用交流。
 3.本着交流学习的态度，解题使用的语言种类繁多，提供多种语言解题版本。
 4.由于有些语言力扣官网并未提供编译测试环境，本人保证对于官网所提供的语言测试功能，保证通过官网所有测试环境。

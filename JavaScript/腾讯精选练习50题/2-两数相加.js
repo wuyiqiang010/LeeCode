@@ -10,6 +10,52 @@
 */
 
 
-function addTwoNumbers() {
-    
+function addTwoNumbers(l1,l2) {
+       //将最长的链表设置为aptr
+      var l1length=0,l2length=0
+    var aptr=l1
+    var bptr=l2
+    while(aptr!=null){
+        l1length++
+        aptr=aptr.next
+    }
+    while(bptr!=null){
+        l2length++
+        bptr=bptr.next
+    }
+    var cptr=new ListNode(null)
+	var dptr=new ListNode(null)
+    if(l1length>=l2length){
+         aptr=l1
+         bptr=l2
+		cptr=l1
+		dptr=l1
+    }else {
+         aptr=l2
+         bptr=l1
+		cptr=l2
+		dptr=l2
+    }
+	//遍历l1和l2链表，将该链表合并成一条链表
+    var pta=new ListNode(null)
+	var ptb=new ListNode(null)
+	while(bptr!=null){
+	    aptr.val=aptr.val+bptr.val
+		aptr=aptr.next
+		bptr=bptr.next
+	}
+	//循环链表l1将大于10的进行进位
+
+	while (cptr!=null){
+        if(cptr.val>9){
+            cptr.val=cptr.val-10
+			if(cptr.next==null){
+			    var node=new ListNode(0,null)
+				cptr.next=node
+			}
+			cptr.next.val=cptr.next.val+1
+		}
+        cptr=cptr.next
+	}
+    return  dptr
 }

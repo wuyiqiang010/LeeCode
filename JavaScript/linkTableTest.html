@@ -14,10 +14,12 @@
 	    //空节点
 	    var emptyNode=new ListNode(arr[0],null)
 		//指针
+		var length=1
 		var ptr=emptyNode
 		for (let i=1;i<arr.length;i++){
 				var node=new  ListNode(arr[i])
 				ptr.next=node
+				length++
 				ptr=ptr.next
 		}
 		return emptyNode
@@ -52,7 +54,7 @@
 	console.log(l1)
 	console.log(sum)*/
 	//反转链表
-	var head=createLinklist([1,2,3,4,5])
+/*	var head=createLinklist([1,2,3,4,5])
 	//遍历链表，到链表表尾
 	var pt=head
 	var count=0
@@ -83,10 +85,12 @@
 
 	//count为奇数
 
+	/*两数相加*/
+	//构造链表l1
+	var l1=createLinklist([1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1])
 
-	console.log(count)
-
-
+	//构造链表l2
+	var l2=createLinklist([5,6,4])
 
 </script>
 
