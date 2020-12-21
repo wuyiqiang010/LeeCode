@@ -19,33 +19,30 @@ F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
 * */
 //方法一：超出时间限制
 function fib(n) {
-
     if(n==1||n==2){
         return 1
     }
-    return fib(n-1)+fib(n-2)
+    return fib(n-1) %1000000007 +fib(n-2) %1000000007
 }
 
 
-//方法二
+//方法二:使用数组
 function fib(n) {
-    var count=0
     if(n==1||n==2){
         return 1
     }
+    if(n==0){
+        return 0
+    }
+    var sum=0
     var arr=new Array()
-    for (let i=0;i<=n;i++){
-        let sum=0
-       if(count==2){
-           count=0
-       }
-       sum=arr[0]+arr[1]
+    arr[0]=1
+    arr[1]=1
+    for (let i=1;i<n-1;i++){
+       sum=(arr[0]+arr[1])%1000000007
        arr[1]=arr[0]
        arr[0]=sum
-       count++
     }
-
-    return  sum
+ return  arr[0]
 }
 
-fib(5)

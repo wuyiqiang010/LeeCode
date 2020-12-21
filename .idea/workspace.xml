@@ -74,21 +74,21 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Rust" />
     <property name="settings.editor.selected.configurable" value="Template Data Languages" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Project\LeeCode\Go\腾讯精选练习50题" />
-      <recent name="C:\Project\LeeCode\Radis" />
-      <recent name="C:\Project\LeeCode\MongoDB" />
-      <recent name="C:\Project\LeeCode\DB2" />
-      <recent name="C:\Project\LeeCode\Go" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Project\LeeCode\JavaScript" />
       <recent name="C:\Project\LeeCode\MySQL" />
       <recent name="C:\Project\LeeCode\JS\LeetCode 热题 HOT 100" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\LeeCode\Rust" />
+      <recent name="C:\Project\LeeCode\Go\腾讯精选练习50题" />
+      <recent name="C:\Project\LeeCode\Radis" />
+      <recent name="C:\Project\LeeCode\MongoDB" />
+      <recent name="C:\Project\LeeCode\DB2" />
     </key>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
@@ -250,11 +250,12 @@
     </state>
     <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606750710120" />
     <state x="532" y="237" key="run.anything.popup/0.40.1920.992@0.40.1920.992" timestamp="1607993372473" />
-    <state x="1002" y="-37" width="874" height="1125" key="search.everywhere.popup" timestamp="1608367539308">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1002" y="-5" width="874" height="1054" key="search.everywhere.popup" timestamp="1608552408657">
+      <screen x="0" y="30" width="1920" height="1011" />
     </state>
     <state x="1002" y="5" width="874" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606750710120" />
     <state x="1002" y="-37" width="874" height="1125" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1608367539308" />
+    <state x="1002" y="-5" width="874" height="1054" key="search.everywhere.popup/0.30.1920.1011@0.30.1920.1011" timestamp="1608552408657" />
     <state x="1002" y="5" width="874" height="1034" key="search.everywhere.popup/0.39.1920.993@0.39.1920.993" timestamp="1608274872467" />
   </component>
 </project>
