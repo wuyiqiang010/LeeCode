@@ -54,44 +54,40 @@
 	console.log(l1)
 	console.log(sum)*/
 	//反转链表
-/*	var head=createLinklist([1,2,3,4,5])
-	//遍历链表，到链表表尾
-	var pt=head
-	var count=0
-	if(pt==null||pt.next==null){
+	var l1=createLinklist([0,1,4,-2])
+	console.log(reverseList(l1))
 
-		console.log(head)
+
+function reverseList(head) {
+	var la=head
+	if(la==null || la.next==null){
+		return  head
 	}
-	//循环遍历链表到链表表尾
-	while(pt!=null){
-		//计算链表节点数
-		count++
-		pt=pt.next
-	}
-	//再次遍历链表
-	var pr=head
-	var tmp=0
-	if(count%2==0){
-		//count为偶数时遍历节点
-		while(pr){
-			tmp++
+	var newlist=new ListNode(null,null)
+	//循环
+	var pr=newlist
+	while (la!=null){
+		let ptr=la
+		let pt=la
+		while (ptr.next!=null){
+			pt=ptr
+			ptr=ptr.next
 		}
-	}else {
-		//count为奇数时遍历节点
-		while (pr){
-			tmp++
-		}
+		//创建新链表
+		pt.next=null
+		//新建节点
+		let newnode=new ListNode(ptr.val,null)
+		pr.next=newnode
+		pr=pr.next
+		la=head
 	}
 
-	//count为奇数
-
-	/*两数相加*/
-	//构造链表l1
-	var l1=createLinklist([1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1])
-
-	//构造链表l2
-	var l2=createLinklist([5,6,4])
-
+	//去除空首节点
+	var pd=newlist
+	newlist=pd.next
+	pd.next=null
+  return newlist
+}
 </script>
 
 </body>

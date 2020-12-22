@@ -15,32 +15,32 @@
 *
 * */
 
-
 function reverseWords(s) {
-    var arr=new Array()
-         var font=0
-        if(s.length===0){
-        return s
+ var arr=new Array()
+ var less=0
+ var font=0
+ if(s.length===0){
+    return s
+ }
+ for (let i=0;i<=s.length;i++){
+    if(s[i]===" "|| i==s.length){
+        font=i-1
+        //交换值
+        for (let k=less,t=font;k<=t;t--,k++){
+            arr[t]=s[k]
+            arr[k]=s[t]
         }
-        for (let i=0;i<=s.length;i++){
-            if (s[i]===" " ||s[i]==null){
-                   let less=i-1
-                    //循环
-                    for (let j=font, k=less;j<=k;j++,k--){
-                        //交换值
-                        arr[j]=s[k]
-                        arr[k]=s[j]
-                        if (i!=s.length-1){
-                            arr.push(" ")
-                        }
-                        /*s[k]=s[k]^s[j]
-                        s[j]=s[k]^s[j]
-                        s[k]=s[k]^s[j]*/
-                    }
-                    font=i+1
-            }
+        if(i!=s.length){
+          arr.push(" ")
         }
-        var tmp=arr.join("")
-        //alert(tmp)
-    return  tmp
+
+        less=i+1
+    }
+ }
+ //转换成字符串
+ var tmp=""
+ for (let j=0;j<arr.length;j++){
+    tmp+=arr[j]
+ }
+return  tmp
 }
