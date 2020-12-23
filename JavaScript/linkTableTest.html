@@ -53,41 +53,9 @@
 	}
 	console.log(l1)
 	console.log(sum)*/
-	//反转链表
-	var l1=createLinklist([0,1,4,-2])
-	console.log(reverseList(l1))
 
 
-function reverseList(head) {
-	var la=head
-	if(la==null || la.next==null){
-		return  head
-	}
-	var newlist=new ListNode(null,null)
-	//循环
-	var pr=newlist
-	while (la!=null){
-		let ptr=la
-		let pt=la
-		while (ptr.next!=null){
-			pt=ptr
-			ptr=ptr.next
-		}
-		//创建新链表
-		pt.next=null
-		//新建节点
-		let newnode=new ListNode(ptr.val,null)
-		pr.next=newnode
-		pr=pr.next
-		la=head
-	}
 
-	//去除空首节点
-	var pd=newlist
-	newlist=pd.next
-	pd.next=null
-  return newlist
-}
 </script>
 
 </body>
