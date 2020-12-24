@@ -74,7 +74,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Rust" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -180,6 +180,10 @@
       <workItem from="1608375476739" duration="1106000" />
       <workItem from="1608381337499" duration="35000" />
       <workItem from="1608355851689" duration="12000" />
+      <workItem from="1608726697602" duration="5256000" />
+      <workItem from="1608737925083" duration="1076000" />
+      <workItem from="1608739253859" duration="3144000" />
+      <workItem from="1608769385375" duration="3104000" />
     </task>
     <servers />
   </component>

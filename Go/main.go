@@ -2,35 +2,31 @@ package Go
 
 import (
 	"fmt"
-	"go/types"
 )
 
 func main()  {
-	x=123;
-	fmt.Print(reverse(x))
+	x:=123;
+	fmt.Print(x)
 }
-func  reverse(x) {
 
-
-}
 
 
 //创建链表
-func CreateLinkList(array){
-
+/*func CreateLinkList(array){
+	fmt.Print("asd")
 }
 
 //删除链表
 func DeleteLinkList(array ,num){
-
+	fmt.Print("asd")
 }
 
 //链表判空
 func EmptyLinkList(array){
-
+	fmt.Print("asd")
 }
 
 //添加节点
 func AddNode(array,Num)  {
-
-}
+	fmt.Print("asd")
+}*/
