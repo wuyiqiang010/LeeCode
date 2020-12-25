@@ -53,6 +53,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="BTaKaqFm" />
   </component>
@@ -75,7 +81,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="copyright.filetypes.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -184,6 +190,9 @@
       <workItem from="1608737925083" duration="1076000" />
       <workItem from="1608739253859" duration="3144000" />
       <workItem from="1608769385375" duration="3104000" />
+      <workItem from="1608806940973" duration="4288000" />
+      <workItem from="1608811278639" duration="6977000" />
+      <workItem from="1608855915922" duration="3715000" />
     </task>
     <servers />
   </component>
@@ -241,11 +250,12 @@
       <screen x="0" y="39" width="1920" height="993" />
     </state>
     <state width="380" height="571" key="HiddenNamespacesPopup/0.39.1920.993@0.39.1920.993" timestamp="1606751227260" />
-    <state x="509" y="125" key="SettingsEditor" timestamp="1608684814654">
-      <screen x="0" y="39" width="1920" height="1002" />
+    <state x="509" y="125" key="SettingsEditor" timestamp="1608810428136">
+      <screen x="0" y="39" width="1920" height="1005" />
     </state>
     <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606750710120" />
     <state x="509" y="125" key="SettingsEditor/0.39.1920.1002@0.39.1920.1002" timestamp="1608684814654" />
+    <state x="509" y="125" key="SettingsEditor/0.39.1920.1005@0.39.1920.1005" timestamp="1608810428136" />
     <state x="336" y="117" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1606750710120" />
     <state x="509" y="125" key="SettingsEditor/0.40.1920.992@0.40.1920.992" timestamp="1608013260500" />
     <state x="467" y="37" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606750710120" />

@@ -15,9 +15,9 @@
 *
 * */
 
-//version One:TimeOut(origin version)
+//version One:TimeOut
 function maxProduct(nums) {
-    if(nums.length==1) return nums
+    if(nums.length==1) return nums[0]
     var len=nums.length-1
     var arr=nums
     for (let head=0;head<len;head++){
@@ -30,8 +30,7 @@ function maxProduct(nums) {
             arr.push(sum)
       }
     }
-    //get min number
-    //遍历数组
+    //获取数组中最小值
     var ptr=0
     var tmp=0
     while (ptr<arr.length){
@@ -43,4 +42,64 @@ function maxProduct(nums) {
 return tmp
 }
 
-//version Two:
+//version Two:TimeOut
+function maxProduct(nums) {
+  if(nums.length==1) return nums[0]
+  var len=nums.length-1
+  //获取数组nums中最大值
+  var tmp=nums[0]
+  for(let t=0;t<nums.length;t++){
+      if(nums[t]>tmp){
+        tmp=nums[t]
+      }
+  }
+  for (let head=0;head<len;head++){
+    for (let tail=len;tail>head;tail--){
+          //计算集合中的乘积
+          let sum=1
+          for (let i=head;i<=tail;i++){
+                sum*=nums[i]
+          }
+          if(sum>tmp){
+            tmp=sum
+          }
+    }
+  }
+return tmp
+}
+
+//version Three
+function maxProduct(nums) {
+    if(nums.length==1) return nums[0]
+    var len=nums.length-1
+    //获取数组nums最大值
+    var tmp=nums[0]
+    for(let t=0;t<nums.length;t++){
+        if(nums[t]>tmp){
+          tmp=nums[t]
+        }
+        //去除nums里面的1
+        if(nums[t]==1){
+          for (let k=t;k<nums.length-1;k++){
+              nums[k]=nums[k+1]
+
+          }
+          nums.length--
+        }
+    }
+    for (let head=0;head<len;head++){
+      for (let tail=len;tail>head;tail--){
+            //计算集合中的乘积
+            let sum=1
+            for (let i=head;i<=tail;i++){
+                  sum*=nums[i]
+            }
+            if(sum>tmp){
+              tmp=sum
+            }
+      }
+    }
+  return tmp
+  }
+
+  //version Four
