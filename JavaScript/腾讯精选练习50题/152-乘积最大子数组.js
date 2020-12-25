@@ -103,3 +103,48 @@ function maxProduct(nums) {
   }
 
   //version Four
+function maxProduct(nums) {
+if (nums.length == 1) return nums[0]
+//获取数组nums最大值
+var tmp = nums[0]
+for (let t = 0; t < nums.length; t++) {
+  if (nums[t] > tmp) {
+    tmp = nums[t]
+  }
+  //去除nums值为1的元素
+  if (nums[t] == 1) {
+    for (let k = t+1; k < nums.length; k++) {
+      nums[k-1] = nums[k]
+    }
+    nums.length--
+    t--
+  }
+  //去除连续两个·数都是-1的元素
+  if(nums[t]==nums[t+1] && nums[t]<0 && nums[t+2]==nums[t]) {
+    let tmps=nums[t]*nums[t+1]
+    nums[t]=tmps
+    //向前移动一个位置
+    for (let j = t +2 ; j < nums.length; j++) {
+      nums[j - 1] = nums[j]
+    }
+    nums.length--
+    t--
+  }
+
+}
+//document.write(nums)
+  var len = nums.length - 1
+  for (let head = 0; head < len; head++) {
+    for (let tail = len; tail > head; tail--) {
+      //计算集合中的乘积
+      let sum = 1
+      for (let i = head; i <= tail; i++) {
+        sum *= nums[i]
+      }
+      if (sum > tmp) {
+        tmp = sum
+      }
+    }
+  }
+  return tmp
+}
