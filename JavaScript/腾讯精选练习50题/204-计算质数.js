@@ -61,7 +61,31 @@ function countPrimes(n) {
 return n-count-1
 }
 
-//版本三:埃拉托斯特尼筛法（再优化版）
+//版本三:（再优化版）
 function countPrimes(n) {
+   if(n==0 || n==1 || n==2) return 0
+   if(n==3) return 1
+   if(n==4 || n==5) return  2
+   var count=2
+   for (let i=5;i<n;i++){
+      if(i%5==0){
+          count++
+          continue
+      }else{
+        for (let j=3;j<i;j++){
+            if(i%j==0){
+              count++
+              break
+            }
+        }
+      }
+   }
+  return n-count
+ }
+//版本四：线性筛选法
 
-}
+
+//版本五： 欧拉筛选法
+
+
+//版本六：埃拉托斯特尼筛法

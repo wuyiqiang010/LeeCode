@@ -38,46 +38,63 @@
 
 
   //四数之和
-  /*function fourSum(nums, target) {
-    var arr=new Array()
+        var arr=[-3,-2,-1,0,0,1,2,3]
+        console.log(fourSum(arr,0))
+  function fourSum(nums, target) {
     var len=nums.length
+    if(len<4) return  []
+    var arr=new Array()
     for(let i=0;i<len-3;i++){
       for(let j=i+1;j<len-2;j++){
         for(let k=j+1;k<len-1;k++){
-          for(let s=k+1;k<len;s++){
+          for(let s=k+1;s<len;s++){
               if(nums[i]+nums[j]+nums[k]+nums[s]==target){
-                let newarr=[i,j,k,s]
+                let newarr=[nums[i],nums[j],nums[k],nums[s]]
                 arr.push(newarr)
               }
           }
         }
       }
     }
-  return arr
-  }*/
 
+    //去除重复数组 3个数相同则可以表示两数组完全一样
+    for(let i=0;i<arr.length-1;i++){
+      for (let j=i+1;j<arr.length;j++){
+          //获取要比较的两个数组
+          let num1=arr[i]
+          let num2=arr[j]
+          //合并数组num1和num2
+          let tmparr=num1+num2
+         /* for (let k=0;k<num2.length;k++){
+              tmparr.push(num2[k])
+          }*/
+        console.log(tmparr)
 
-   //计算质数
-/*   countPrimes(20)
-   function countPrimes(n) {
-     if(n==0 || n==1 || n==2) return 0
-     if(n==3) return 1
-     if(n==4 || n==5) return 2
-     var count=2
-     for (let i=5;i<n;i++){
-        if(i%2==0){
-            continue;
-        }else{
-          for (let j=3;j<i;j++){
-              if(i%j==0){
-                count++
-                break
+          //去除重复的数字
+          for (let t=0;t<tmparr.length-1;t++){
+              for (let p=t+1;p<tmparr.length;p++){
+                  if (tmparr[t]==tmparr[p]){
+                     for (let y=p+1;y<tmparr.length;y++){
+                          arr[y-1]=arr[y]
+                      }
+                      
+                      tmparr.length--
+                  }
               }
           }
-        }
-     }
-     console.log(n-count)
-   }*/
+
+          if(tmparr.length==4){
+              //删除后一个元素
+              for (let m=j+1;m<arr.length;m++){
+                  arr[m-1]=arr[m]
+              }
+               j--
+              arr.length--
+          }
+      }
+    }
+  return arr
+  }
 
     </script>
 </body>
