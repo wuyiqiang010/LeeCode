@@ -10,19 +10,20 @@ function SelectionSort(array,flags) {
 	//array表示需要进行排序的数组，flags表示控制位，true表示降序排列，false表示升序排列
 	for(let i=0;i<array.length-1;i++){
 		let minindex=i
-		for (let j=i;j<array.length;j++){
+		for (let j=i+1;j<array.length;j++){
 			if(flags?array[minindex]<array[j]:array[minindex]>array[j]){
 				minindex=j
 			}
 		}
 
 		//交换本轮循环中查找到符合要求的元素
-		array[minindex]=array[minindex]^array[i]
-		array[i]=array[minindex]^array[i]
-		array[minindex]=array[minindex]^array[i]
+		let tmp
+		tmp=array[i]
+		array[i]=array[minindex]
+		array[minindex]=tmp
 
 	}
 	return array
 }
 
-console.log(SelectionSort(arr,false))
+console.log(SelectionSort(arr,true))
