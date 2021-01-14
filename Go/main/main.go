@@ -1,15 +1,13 @@
-package Go
+package main
 
 import (
 	"fmt"
 )
 
-func main()  {
-	x:=123;
+func main() {
+	x := 123
 	fmt.Print(x)
 }
-
-
 
 //创建链表
 /*func CreateLinkList(array){

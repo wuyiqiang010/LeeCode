@@ -20,20 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afdbb261-f430-4b95-b2c3-e3a843617d51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/927-三等分.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/738-单调递增的数字.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/.idea/JS.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go/main.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/arrayTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/arrayTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/linkTableTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/linkTableTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/剑指 Offer 10- I. 斐波那契数列.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/剑指 Offer 10- I. 斐波那契数列.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/2-两数相加.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/腾讯精选练习50题/2-两数相加.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Radis/占位文件.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,21 +69,22 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="copyright.filetypes.JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/算法/SelectionSort" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\windows\Project\LeeCode\算法\SelectionSort" />
+      <recent name="C:\Users\windows\Project\LeeCode\算法\InsertionSort" />
+      <recent name="C:\Users\windows\Project\LeeCode\算法\BubbleSort" />
+      <recent name="C:\Project\LeeCode\Rust" />
+      <recent name="C:\Project\LeeCode\Go\腾讯精选练习50题" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\windows\Project\LeeCode\算法" />
       <recent name="C:\Project\LeeCode\JavaScript" />
       <recent name="C:\Project\LeeCode\MySQL" />
       <recent name="C:\Project\LeeCode\JS\LeetCode 热题 HOT 100" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Project\LeeCode\Rust" />
-      <recent name="C:\Project\LeeCode\Go\腾讯精选练习50题" />
-      <recent name="C:\Project\LeeCode\Radis" />
-      <recent name="C:\Project\LeeCode\MongoDB" />
-      <recent name="C:\Project\LeeCode\DB2" />
     </key>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
@@ -197,6 +187,11 @@
       <workItem from="1608878000992" duration="19953000" />
       <workItem from="1608965534047" duration="2689000" />
       <workItem from="1609029017718" duration="151000" />
+      <workItem from="1609029289402" duration="19000" />
+      <workItem from="1609230656923" duration="1070000" />
+      <workItem from="1609657762200" duration="1114000" />
+      <workItem from="1610623248745" duration="2038000" />
+      <workItem from="1610625452265" duration="2795000" />
     </task>
     <servers />
   </component>
@@ -225,13 +220,17 @@
       <screen x="0" y="39" width="1920" height="993" />
     </state>
     <state x="1025" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.39.1920.993@0.39.1920.993" timestamp="1606751425446" />
-    <state x="512" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606750710120" />
+    <state x="512" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610623394393">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="512" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1610623394393" />
     <state x="512" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1606750710120" />
-    <state x="620" y="136" key="FileChooserDialogImpl" timestamp="1608138076856">
-      <screen x="0" y="40" width="1920" height="992" />
+    <state x="620" y="136" key="FileChooserDialogImpl" timestamp="1609029306749">
+      <screen x="0" y="39" width="1920" height="1005" />
     </state>
     <state x="496" y="107" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606750710120" />
     <state x="620" y="135" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606750710120" />
+    <state x="620" y="136" key="FileChooserDialogImpl/0.39.1920.1005@0.39.1920.1005" timestamp="1609029306749" />
     <state x="620" y="135" key="FileChooserDialogImpl/0.39.1920.993@0.39.1920.993" timestamp="1607130089091" />
     <state x="620" y="136" key="FileChooserDialogImpl/0.40.1920.992@0.40.1920.992" timestamp="1608138076856" />
     <state width="606" height="248" key="GridCell.Tab.0.bottom" timestamp="1606751411463">
@@ -254,12 +253,12 @@
       <screen x="0" y="39" width="1920" height="993" />
     </state>
     <state width="380" height="571" key="HiddenNamespacesPopup/0.39.1920.993@0.39.1920.993" timestamp="1606751227260" />
-    <state x="509" y="125" key="SettingsEditor" timestamp="1608810428136">
+    <state x="748" y="76" key="SettingsEditor" timestamp="1609658955759">
       <screen x="0" y="39" width="1920" height="1005" />
     </state>
     <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606750710120" />
     <state x="509" y="125" key="SettingsEditor/0.39.1920.1002@0.39.1920.1002" timestamp="1608684814654" />
-    <state x="509" y="125" key="SettingsEditor/0.39.1920.1005@0.39.1920.1005" timestamp="1608810428136" />
+    <state x="748" y="76" key="SettingsEditor/0.39.1920.1005@0.39.1920.1005" timestamp="1609658955759" />
     <state x="336" y="117" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1606750710120" />
     <state x="509" y="125" key="SettingsEditor/0.40.1920.992@0.40.1920.992" timestamp="1608013260500" />
     <state x="467" y="37" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606750710120" />
