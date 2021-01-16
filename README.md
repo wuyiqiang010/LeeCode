@@ -9,12 +9,12 @@
 
 ## Algorithms
 ### Sort:(排序算法)
-​    1.BubbleSort:冒泡排序
-​    2.InsertSort:插入排序
-​    3.MergeSort:归并排序
-​    4.RadixSort:基数排序
-​    5.SelectionSort:选择排序
-​    6.ShellSort:希尔排序
+​    1.BubbleSort:冒泡排序  
+​    2.InsertSort:插入排序  
+​    3.MergeSort:归并排序  
+​    4.RadixSort:基数排序  
+​    5.SelectionSort:选择排序  
+​    6.ShellSort:希尔排序  
 ### Find:(搜索算法)
 ### LinkList:(链表)
 
