@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afdbb261-f430-4b95-b2c3-e3a843617d51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/InsertionSort/Javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/InsertionSort/Javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/QuickSort/Javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/QuickSort/Javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/SelectionSort/Javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/SelectionSort/Javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="afdbb261-f430-4b95-b2c3-e3a843617d51" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +67,8 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="go" />
+    <property name="settings.editor.splitter.proportion" value="0.26814687" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -278,14 +271,14 @@
       <screen x="0" y="39" width="1920" height="993" />
     </state>
     <state width="380" height="571" key="HiddenNamespacesPopup/0.39.1920.993@0.39.1920.993" timestamp="1606751227260" />
-    <state x="246" y="48" key="SettingsEditor" timestamp="1611141038346">
+    <state x="246" y="48" key="SettingsEditor" timestamp="1611591138890">
       <screen x="0" y="39" width="1920" height="1041" />
     </state>
     <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606750710120" />
     <state x="246" y="39" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1610632616603" />
     <state x="509" y="125" key="SettingsEditor/0.39.1920.1002@0.39.1920.1002" timestamp="1608684814654" />
     <state x="748" y="76" key="SettingsEditor/0.39.1920.1005@0.39.1920.1005" timestamp="1609658955759" />
-    <state x="246" y="48" key="SettingsEditor/0.39.1920.1041@0.39.1920.1041" timestamp="1611141038346" />
+    <state x="246" y="48" key="SettingsEditor/0.39.1920.1041@0.39.1920.1041" timestamp="1611591138890" />
     <state x="336" y="117" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1606750710120" />
     <state x="509" y="125" key="SettingsEditor/0.40.1920.992@0.40.1920.992" timestamp="1608013260500" />
     <state x="467" y="37" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606750710120" />
